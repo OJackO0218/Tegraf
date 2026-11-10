@@ -1,5 +1,5 @@
 """
-Sudoku Graph Coloring Package
+Sudoku and Timetabling Graph Coloring Package.
 """
 
 from .sudoku_graph import SudokuGraph
@@ -10,6 +10,12 @@ from .utils import (
     format_grid,
     verify_chromatic_validity
 )
+from .timetabling import (
+    TimetableGraph,
+    solve_timetabling,
+    parse_timetabling_file,
+    format_timetable_schedule
+)
 
 __all__ = [
     "SudokuGraph",
@@ -18,5 +24,9 @@ __all__ = [
     "parse_sudoku_file",
     "parse_sudoku_string",
     "format_grid",
-    "verify_chromatic_validity"
+    "verify_chromatic_validity",
+    "TimetableGraph",
+    "solve_timetabling",
+    "parse_timetabling_file",
+    "format_timetable_schedule"
 ]

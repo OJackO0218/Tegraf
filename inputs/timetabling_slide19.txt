@@ -1,0 +1,13 @@
+# Week 10 Slide 19 Timetabling Example
+# Matrix A: Lecturers (Rows) x Classes (Columns)
+# Format:
+# First line: Lecturer names
+# Second line: Class names
+# Next lines: Requirements matrix A_ij
+
+L1 L2 L3 L4
+C1 C2 C3 C4 C5
+2 0 1 1 0
+0 1 0 1 0
+0 1 1 1 0
+0 0 0 1 1

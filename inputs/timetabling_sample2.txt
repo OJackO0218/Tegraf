@@ -1,0 +1,9 @@
+# University Department Timetable Benchmark
+# 5 Lecturers x 4 Batches
+Prof_A Prof_B Prof_C Prof_D Prof_E
+Batch_1 Batch_2 Batch_3 Batch_4
+2 1 0 0
+0 2 1 0
+1 0 2 1
+0 1 0 2
+0 0 1 1
