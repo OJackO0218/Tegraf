@@ -14,6 +14,9 @@ from .timetabling import (
     TimetableGraph,
     solve_timetabling,
     parse_timetabling_file,
+    format_input_matrix,
+    format_timetable_matrix,
+    format_slot_decomposition,
     format_timetable_schedule
 )
 
@@ -28,5 +31,8 @@ __all__ = [
     "TimetableGraph",
     "solve_timetabling",
     "parse_timetabling_file",
+    "format_input_matrix",
+    "format_timetable_matrix",
+    "format_slot_decomposition",
     "format_timetable_schedule"
 ]

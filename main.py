@@ -49,19 +49,24 @@ def run_sudoku_file(filepath: str, graph: SudokuGraph):
 
 
 def run_timetabling_file(filepath: str):
+    from src.timetabling import format_input_matrix
+
     tg = parse_timetabling_file(filepath)
     name = os.path.basename(filepath)
     print("=" * 65)
     print(f"TIMETABLING PROBLEM COLORING: {name}")
     print("=" * 65)
-    print(f"Lecturers: {', '.join(tg.lecturers)}")
-    print(f"Classes:   {', '.join(tg.classes)}")
+    print("Input Matrix A (Slide 19 Teaching Requirements):")
+    print(format_input_matrix(tg))
+    print("-" * 65)
     print(f"Conflict Graph: |V| = {tg.total_sessions} sessions, |E| = {tg.total_edges} constraints")
     theo_min = tg.theoretical_min_slots()
     print(f"Theoretical Lower Bound (Delta(G) via Konig's Theorem): {theo_min} time slots")
     colors, slots_used = solve_timetabling(tg)
     print(f"Assigned Time Slots: {slots_used}")
+    print("-" * 65)
     print(format_timetable_schedule(tg, colors))
+    print("-" * 65)
     print(f"Status: {'OPTIMAL' if slots_used == theo_min else 'VALID'}\n")
     return True
 

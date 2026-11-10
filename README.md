@@ -122,11 +122,15 @@ python -m unittest discover tests
 * Input matrix: 4 Lecturers x 5 Classes, 11 total sessions
 * Degree analysis: Delta(G) = 4 (L1 requires 4 hours, C4 requires 4 hours)
 * Minimum slots by Konig's Theorem: 4
-* Assigned slots: 4 (Optimal)
-  Slot 1: L1 -> C4, L3 -> C2, L4 -> C5
-  Slot 2: L3 -> C4, L1 -> C3, L2 -> C2
-  Slot 3: L2 -> C4, L1 -> C1, L3 -> C3
-  Slot 4: L4 -> C4, L1 -> C1
+* Output Schedule Matrix:
+```
+A            C1       C2       C3       C4       C5
+L1        T3,T4        -       T2       T1        -
+L2            -       T2        -       T3        -
+L3            -       T1       T3       T2        -
+L4            -        -        -       T4       T1
+```
+* Status: OPTIMAL (Assigned in exactly 4 non-conflicting time slots)
 
 ## AI Tools Usage Disclosure
 Assistance was used for code structuring, test case generation, and documentation drafting. All algorithmic steps, graph formulations, and theoretical bounds were independently verified against lecture material.
