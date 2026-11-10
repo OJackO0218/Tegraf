@@ -1,0 +1,5 @@
+# Pure Python Standard Library implementation.
+# No mandatory external dependencies required (runs out-of-the-box on Python 3.8+).
+
+# Optional testing / development tools:
+pytest>=7.0.0
