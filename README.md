@@ -29,6 +29,7 @@ This repository implements two graph coloring applications from the Week 10 lect
 * Slide 19 Example: Maximum degree is 4 (L1 and C4), yielding an optimal 4-slot conflict-free timetable.
 
 ## Repository Structure
+```
 Tegraf/
 ├── inputs/
 │   ├── slide18_sample.txt
@@ -49,6 +50,7 @@ Tegraf/
 ├── main.py
 ├── requirements.txt
 └── README.md
+```
 
 ## How to Run
 
