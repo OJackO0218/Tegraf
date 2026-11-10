@@ -133,4 +133,4 @@ L4            -        -        -       T4       T1
 * Status: OPTIMAL (Assigned in exactly 4 non-conflicting time slots)
 
 ## AI Tools Usage Disclosure
-Assistance was used for code structuring, test case generation, and documentation drafting. All algorithmic steps, graph formulations, and theoretical bounds were independently verified against lecture material.
+https://share.gemini.google/OVvX0Uj6NTni
