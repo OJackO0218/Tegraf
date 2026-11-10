@@ -1,10 +1,10 @@
-# 🧩 Tegraf: Sudoku Solver via Graph Vertex Coloring
-> **Informatics ITS — Graph Theory (Teori Graf) Week 10 Assignment**  
+# Tegraf: Sudoku Solver via Graph Vertex Coloring
+> **Informatics ITS - Graph Theory (Teori Graf) Week 10 Assignment**  
 > Department of Informatics, Institut Teknologi Sepuluh Nopember (ITS)
 
 ---
 
-## 👥 Student Identity
+## Student Identity
 * **Course:** Graph Theory (Teori Graf)
 * **Institution:** Department of Informatics, Institut Teknologi Sepuluh Nopember (ITS)
 * **Topic Selected:** **Coloring — Option 1: Implement Sudoku Solver using Vertex Coloring**
@@ -14,7 +14,7 @@
 
 ---
 
-## 📖 Theoretical Formulation: Sudoku as Graph Coloring
+## Theoretical Formulation: Sudoku as Graph Coloring
 
 In graph theory, **Vertex Coloring** is the assignment of labels (or "colors") to the vertices of a graph such that **no two adjacent vertices share the same color** (*Week 10 Lecture, Slide 3*).
 
@@ -54,7 +54,7 @@ A standard $9 \times 9$ Sudoku puzzle can be formally modeled as an **Exact 9-Ve
 
 ---
 
-## 🧠 Algorithm Implementation
+## Algorithm Implementation
 
 The solver is implemented strictly following the algorithms presented in the **Week 10 Lecture**:
 
@@ -86,7 +86,7 @@ Inspired by the **Welsh-Powell Algorithm (Slide 9)** which prioritizes high-cons
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Tegraf/
@@ -110,7 +110,7 @@ Tegraf/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 * **Python 3.8+**
@@ -145,7 +145,7 @@ python tests/test_solver.py
 
 ---
 
-## 📊 Sample Run Results
+## Sample Run Results
 
 ### Benchmark Summary Table
 
@@ -160,7 +160,7 @@ python tests/test_solver.py
 ### Console Output for Week 10 Slide 18:
 ```text
 =================================================================
-🧩 ANALYZING SUDOKU GRAPH: slide18_sample.txt (Slide 18)
+ANALYZING SUDOKU GRAPH: slide18_sample.txt (Slide 18)
 =================================================================
 Graph Properties:
   • Vertices (|V|) : 81 cells
@@ -184,7 +184,7 @@ INITIAL GRAPH STATE:
 +-------+-------+-------+
 -----------------------------------------------------------------
 Running Backtracking Vertex Coloring with MRV/Saturation Heuristic...
-✅ PROPER 9-COLORING FOUND!
+PROPER 9-COLORING FOUND!
 +-------+-------+-------+
 | 8 4 9 | 2 6 3 | 7 1 5 |
 | 1 5 2 | 8 7 9 | 6 3 4 |
@@ -209,7 +209,7 @@ Performance Metrics:
 
 ---
 
-## 🤖 AI Tools Usage Disclosure
+## AI Tools Usage Disclosure
 
 In compliance with the homework policy regarding honest academic integrity and AI disclosure:
 * **AI Tool Used:** Google Antigravity (Gemini-powered coding assistant)
