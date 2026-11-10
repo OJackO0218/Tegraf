@@ -4,13 +4,15 @@
 
 ---
 
-## Student Identity
-* **Course:** Graph Theory (Teori Graf)
-* **Institution:** Department of Informatics, Institut Teknologi Sepuluh Nopember (ITS)
-* **Topic Selected:** **Coloring — Option 1: Implement Sudoku Solver using Vertex Coloring**
-* **Author:** Athar Rozy Rasyidan
-* **NRP / Student ID:** 5025251009
-* **Class:** IUP Informatics
+## Identity
+GROUP 8
+
+|    NRP     |           Nama             |
+| :--------: |       :------------:       |
+| 5025251260 | Aqilah Ibrahim             |
+| 5025251161 | Rizqi Arya Kuskhilbyano    |
+| 5025251009 | Athar Rozy Rasyidan                    |
+| 5025251017 | Wafi Fawwaz Sutisna                    |
 
 ---
 
