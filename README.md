@@ -1,13 +1,15 @@
 # Tegraf: Graph Coloring Algorithms (Sudoku & Timetabling)
 Informatics ITS - Graph Theory Week 10 Assignment
 
-## Student Identity
-Course: Graph Theory (Teori Graf)
-Institution: Department of Informatics, Institut Teknologi Sepuluh Nopember (ITS)
-Topic Selected: Coloring
-Author: Athar Rozy Rasyidan
-NRP: 5025251009
-Class: IUP Informatics
+## Identity
+GROUP 8
+
+|    NRP     |           Nama             |
+| :--------: |       :------------:       |
+| 5025251260 | Aqilah Ibrahim             |
+| 5025251161 | Rizqi Arya Kuskhilbyano    |
+| 5025251009 | Athar Rozy Rasyidan        |
+| 5025251017 | Wafi Fawwaz Sutisna        |
 
 ## Overview
 This repository implements two graph coloring applications from the Week 10 lecture:
